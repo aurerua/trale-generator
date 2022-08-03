@@ -85,7 +85,7 @@ testgw(all,File).
 
 If File exists, its content is replaced by the output, so in order to append the test results to file File instead of overwriting its content, this should be used:
 
-```
+```prolog
 testga(No,File).
 testga(all,File).
 ``` 
